@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Library</title>
+      
+        <link rel="stylesheet" type = "text/css" href="scss/style.css">
+    </head>
+
+    <body>
+        <header>Library</header>
+        
+        <div>
+            <button id="addButton" onclick="openPopUp()">Add New Book</button>
+        </div>
+        
+
+
+        <div class="book-list">
+            <div class="book-bg">
+                <div class="book-info">
+                    <p>Author</p>
+                    <p>Title</p>
+                    <p>300 Pages</p>
+                    <input type="checkbox" id="read-status">
+                    <label for="read-status">Read</label>
+                </div>                
+            </div>
+        </div>
+
+        <div id="pop-up">
+            <span id="close">X</span>
+            <input type="text" placeholder="Book Title">
+            <input type="text" placeholder="Author Name">
+            <input type="number" placeholder="Number of Pages">
+            <input type="checkbox" id="read-status">
+            <label for="read-status">Read</label>
+        </div>
+
+        <script type="text/javascript" src="main.js"></script>
+    </body>
+</html>
